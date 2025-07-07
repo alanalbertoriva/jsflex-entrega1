@@ -1,4 +1,4 @@
-# jsflex-entrega1
+# Javascript Flex - Primera entrega
 Primera entrega para curso JavaScript Flex
 
 # Simulador de frases de Breaking Bad y Los Simpsons

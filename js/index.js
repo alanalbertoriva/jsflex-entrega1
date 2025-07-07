@@ -62,10 +62,15 @@ function solicitarPalabraClave() {
 }
 
 function buscarFrasesPorPalabraClave(frases, palabraClave) {
+    let contador = 0;
     for(let i = 0; i < frases.length; i++) {
         if(frases[i].toLowerCase().includes(palabraClave.toLowerCase())) {
             console.log(frases[i]);
+            contador++;
         }
+    }
+    if(contador === 0) {
+        console.log("No se encontraron frases con la palabra clave: " + palabraClave);
     }
 }
 
